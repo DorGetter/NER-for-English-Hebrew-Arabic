@@ -12,5 +12,5 @@ def start_form():
 def second_form():
     text=request.form['fname']
     print(text)
-    return render_template('anser.html',dataToRender=text)
+    return render_template('answer.html',dataToRender=text)
 
