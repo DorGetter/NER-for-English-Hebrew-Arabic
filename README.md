@@ -17,15 +17,23 @@ You will find this article so useful https://www.depends-on-the-definition.com/n
 ### With pip
 This repository is tested on Python 3.6+, Flax 0.3.2+, PyTorch 1.3.1+ and TensorFlow 2.3+, transformers , seqeval ,Flask ,and BS4.
 
+### TRANSFORMERS
 ```bash
 pip install transformers
 ```
 ----------------
+### FLASK
 ```bash
 pip install flask
 ```
 ----------------
+### SEQEVAL
 ```bash
 pip install seqeval
 ```
+----------------
+## BS4
+```bash
+pip install beautifulsoup4
 
+```
