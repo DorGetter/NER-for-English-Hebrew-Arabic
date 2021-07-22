@@ -32,11 +32,7 @@ pip install flask
 pip install seqeval
 ```
 ----------------
-## BS4
-```bash
-pip install beautifulsoup4
 
-```
 
 ## Training The Model With Google Colab
 ![](https://github.com/DorGetter/NER_Project/blob/main/GoogleColabTrain.png)
