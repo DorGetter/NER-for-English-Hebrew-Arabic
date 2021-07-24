@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
+ <style>
+  body{background-image: url('https://d33wubrfki0l68.cloudfront.net/1f584d37309089f3f5a8ddff7447d3edf5de0074/0c08b/images/named-entity-recognition-with-bert_files/bert-input-output.png');
+      background-size: cover;
+      background-repeat: no-repeat;}
 
+ </style> 
+<body>
+<div>  
 <h1 style="text-align: center;">NER With BERT</h1>
 <form action="{{url_for('start_form')}}" method="post">
     <label for="firstname">text:</label>
-
+    
     <input type="text" id="firstname" name="fname" placeholder="firstname">
     <button type="submit">apply</button>
 </form>
-
-<body style="background-color:rgb(128, 128, 128);">
-    <img src="https://d33wubrfki0l68.cloudfront.net/1f584d37309089f3f5a8ddff7447d3edf5de0074/0c08b/images/named-entity-recognition-with-bert_files/bert-input-output.png" alt="Paris" class="center">
+</div>
+<div  id="hidden" style=" text-align: center;">
   
-    
-
-
-
-
+    <h1>
+    <label style="text-align: center;" for="lname">תוֹצָאָה:</label>
+    <p> {{ data }}</p>
+    </h1>
+   
+  
+</div>
 
 
 
 </body>
+
+<script>
+  function Func(){
+    var div =document.getElementById("hidden");
+    if(div.style.display=='none'){
+      div.style.display='';
+    }
+
+  }
+</script>
 </html>
