@@ -1,7 +1,12 @@
 Hello there!
 
 Before trying to compile and run the web application please check your OS have all the right dependencies and libraries install.
-(The Requirments.txt file includes all the neccesery installation you will need to install in the specific versions)
+
+*************** Importent ***************************
+1) The Requirments.txt file includes all the neccesery installation you will need to install in the specific versions!!!
+2) all installations must be under sudo privilege!! means "$sudo <install command>"!!!
+*************** Importent ***************************
+
 
 How To Run: 
 
