@@ -1,0 +1,37 @@
+Hello there!
+
+Before trying to compile and run the web application please check your OS have all the right dependencies and libraries install.
+
+*************** Importent ***************************
+1) The Requirments.txt file includes all the neccesery installation you will need to install in the specific versions!!!
+2) all installations must be under sudo privilege!! means "$sudo <install command>"!!!
+*************** Importent ***************************
+
+
+How To Run: 
+
+-------------------------------------------------------------------------
+
+1) Install all the libraries neccesery (see description above). 
+
+---------------Client----------------------------------------------------------
+
+2) 2.0) Open terminal in "Client" folder. 
+   2.1) Run $npm install. 
+   2.1.1) If you run into problems please do:
+           (a) Delete the 'package.json' file in the Client folder. Then -> repeat 2.0 .
+           (b) Try moving the project to different folder in the OS. 
+   2.2) Go to: 'Api.js' , to line: 25 , Please re-path the 'textJSON.json' to his correct location (path to the App/Client/src) 
+   2.3) After Installing the NPM. Run $npm start .
+
+
+--------------Server-----------------------------------------------------------
+
+3)  3.0) In the App/server/new_code.py - change the paths in lines: 14,19,20,87. to their right paths.
+    3.1) Open terminal in /server folder. 
+    3.2) Run "$sudo python3 server.py
+    
+    
+    
+Don't forget to report on Bugs and issuse in the "Issue" section in the GitHub repo. 
+Enjoy!
