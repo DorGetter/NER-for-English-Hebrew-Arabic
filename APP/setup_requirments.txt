@@ -1,7 +1,10 @@
 sudo apt install npm
 sudo pip3 install flask
+sudo pip3 install -U flask-cors
 sudo pip3 install pandas
 sudo pip3 install spacy-transformers==0.6.0
 sudo pip3 install transformers==2.5.0
 sudo pip3 install torch==1.5.1
 sudo npm install styled-components
+npm i react-tooltip
+npm install semantic-ui-react semantic-ui-css

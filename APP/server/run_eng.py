@@ -5,20 +5,30 @@ import json
 from transformers import BertTokenizer, BertConfig
 from transformers import pipeline
 from itertools import groupby
+import os
+
+path = os.getcwd()
+parent_path = os.path.dirname(path) #APP/
+
+model = None
+tokenizer, tag_values = None, None
 
 
 def look_and_see(text):
+    global model
+    global tokenizer,tag_values
 
 
     JsonFile = json.dumps(text)
-    with open("/home/dor/Downloads/APP_NER_DOR/APP/Client/src/RawText.json", "w") as f:
+    with open(str(parent_path) + "/Client/src/RawText.json", "w") as f:
         f.write(JsonFile)
         f.close()
 
-
-    model = torch.load('/home/dor/Downloads/APP_NER_DOR/APP/server/model.pth', map_location=torch.device('cpu'))
-    tokenizer, tag_values = pd.read_pickle("/home/dor/Downloads/APP_NER_DOR/APP/server/tokenizer_0_tags_1.pkl")
-
+    if model is None and tokenizer is None and tag_values is None:
+        print("> > > Loading english Model...")
+        model = torch.load(parent_path + '/server/eng_model/model.pth', map_location=torch.device('cpu'))
+        tokenizer, tag_values = pd.read_pickle(parent_path + "/server/eng_model/tokenizer_0_tags_1.pkl")
+    
     test_sentence = text
     tokenized_sentence =tokenizer.encode(test_sentence)
     input_ids = torch.tensor([tokenized_sentence])
@@ -29,8 +39,6 @@ def look_and_see(text):
     nlp = pipeline('ner', model=model, tokenizer=tokenizer)
     output1 = nlp(text)
     i = 0
-    words = []
-    entities = []
     for entity in output1:
         entity['entity'] = tag_values[label_indices[0][i]]
         i += 1
@@ -42,7 +50,6 @@ def look_and_see(text):
         else:
             new_labels.append(tag_values[label_idx])
             new_tokens.append(token)
-    ret_string = ""
     scores = []
     for entity in output1:
          scores.append(entity['score'])
@@ -76,7 +83,6 @@ def look_and_see(text):
 
 
     reduce = 0
-
     for item in to_remove:
         remove = new_list[item-reduce];
         reduce += 1
@@ -84,14 +90,9 @@ def look_and_see(text):
     
 
     jsonFile = json.dumps(new_list)
-    with open("/home/dor/Downloads/APP_NER_DOR/APP/Client/src/textJSON.json", "w") as f:
+    with open(str(parent_path) + "/Client/src/textJSON.json", "w") as f:
         f.write(jsonFile)
         f.close()
     
    
-    print("\n")
-    i = 0 
-    for item in new_list:
-        print(i ,": ", item)
-        i+=1
-    # return jsonFile
+    
