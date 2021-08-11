@@ -630,13 +630,12 @@ class App extends Component {
 
 
             <div className="App">  
-
                 <Wrapper><img src={require('./Bert2.png')} align = "0.5em" height="120em"   justifyContent = 'right'   align = 'right'/> 
                 <div>
                 <img src={require('./Globe.png')} height="40em" /> 
                         <select  onChange={(e)=>{this.handleLang(e);}}>
 
-                            <option value = '0'> choose lang </option> 
+                            <option value = '0'>choose lang</option> 
                             <option value = '1'>English</option>
                             <option value = '2'>Hebrew</option>
                             <option value = '3'>Arabic</option>
@@ -654,7 +653,7 @@ class App extends Component {
                 <BTN dir={this.state.textBox_align} onClick={this.sendHttp}> {this.state.submit} </BTN>
                 <BTN dir={this.state.textBox_align} onClick={this.getData} type="submit">{this.state.result}</BTN>
                 
-                <div>  {print}   </div>
+                <div dir={this.state.textBox_align} > {print}   </div>
                 {/* <div> {language}</div> */}
                 <div style= {{ display :"block", padding : "1.5em"}}>  {table}   </div>
                
