@@ -1,4 +1,4 @@
-# NER_Project
+# NER_Project in English , Hebrew , and Arabic
 -----------------
 
 ## Abstract
