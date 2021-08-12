@@ -30,9 +30,21 @@ Link https://github.com/DorGetter/NER_Project/blob/main/Project%20Book.pdf
 
 
 
+</b> 
+## Advisors:
+
+PhD Or Anidgar Lecturer, Department of Computer Science at Ariel University for Deep Learning Methods for Natural Language Processing & Speech Recognition
 
 
 </b>
-You will find this article so useful https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
-![](https://github.com/DorGetter/NER_Project/blob/main/bert-input-output.png)
+## Credits
+
+Credits
+The Hebrew Treebank: http://www.cs.technion.ac.il/~itai/publications/NLP/TreeBank.pdf
+The SPMRL Shared Task data: https://www.aclweb.org/anthology/W13-4917/
+The Universal Dependencies Treebank: https://www.aclweb.org/anthology/W18-6016
+The Named Entity Recognition Annotations: https://arxiv.org/abs/2007.15620
+The Hebrew Sentiment Analysis Corpus: https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew
+Tobias Sterbak: https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
+
 
