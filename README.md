@@ -7,7 +7,12 @@ In any text content, there are some terms that are more informative and unique i
 
 ## BERT MODEL
 
-In this project we are going to use pre-trained model Bert and use the tokenizer to interact with API UI.
+In our project we fine-tuned BERT models to perform named-entity 
+recognition (NER) in three languages (English, Hebrew and Arabic).
+The project provides web-based interface (written in REACT) that allows 
+the user to enter text in one of the languages and get an output of the text
+labeled into entities, and a table that shows for each word in the text what is 
+the entity, and the confidence score.
 You will find this article so useful https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
 ![](https://github.com/DorGetter/NER_Project/blob/main/bert-input-output.png)
 
