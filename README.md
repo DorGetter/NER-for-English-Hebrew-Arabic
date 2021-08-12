@@ -5,11 +5,7 @@
 
 ## Authors
 
-Dor Getter </b>
-
-Aiman Younis </b>
-
-Liad Ben Moshe
+Dor Getter, Aiman Younis, Liad Ben Moshe
 
 </b>
 
