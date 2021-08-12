@@ -22,6 +22,8 @@ the entity, and the confidence score.</b>
 
 
 </b>
+
+
 ## Installation & Setup and Running the project
 Please refer to our Project Book <\b> 
 Link https://github.com/DorGetter/NER_Project/blob/main/Project%20Book.pdf
