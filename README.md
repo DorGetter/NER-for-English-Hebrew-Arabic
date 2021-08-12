@@ -31,13 +31,22 @@ Link https://github.com/DorGetter/NER_Project/blob/main/Project%20Book.pdf
 
 
 </b> 
+
+
 ## Advisors:
+
+</b>
 
 PhD Or Anidgar Lecturer, Department of Computer Science at Ariel University for Deep Learning Methods for Natural Language Processing & Speech Recognition
 
 
 </b>
+
+
 ## Credits
+
+</b>
+
 
 Credits
 The Hebrew Treebank: http://www.cs.technion.ac.il/~itai/publications/NLP/TreeBank.pdf
