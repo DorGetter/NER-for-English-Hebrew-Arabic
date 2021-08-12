@@ -21,38 +21,16 @@ the entity, and the confidence score.</b>
 
 
 
+</b>
+## Installation & Setup and Running the project
+Please refer to our Project Book <\b> 
+Link https://github.com/DorGetter/NER_Project/blob/main/Project%20Book.pdf
 
 
 
 
 
-
+</b>
 You will find this article so useful https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
 ![](https://github.com/DorGetter/NER_Project/blob/main/bert-input-output.png)
-
-
-## Installation
-
-### With pip
-This repository is tested on Python 3.6+, Flax 0.3.2+, PyTorch 1.3.1+ and TensorFlow 2.3+, transformers , seqeval ,Flask ,and BS4.
-
-### TRANSFORMERS
-```bash
-pip install transformers
-```
-----------------
-### FLASK
-```bash
-pip install flask
-```
-----------------
-### SEQEVAL
-```bash
-pip install seqeval
-```
-----------------
-
-
-## Training The Model With Google Colab
-![](https://github.com/DorGetter/NER_Project/blob/main/GoogleColabTrain.png)
 
