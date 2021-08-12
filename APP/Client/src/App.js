@@ -650,8 +650,8 @@ class App extends Component {
                 <Form> 
                     <textarea dir={this.state.textBox_align} aria-expanded = 'true' rows='20' cols='200' itemScope='40em' placeholder={this.state.textBox_placeholder} value={this.state.value} onChange={(e) => {this.handleChange(e)}} />       
                 </Form>
-                <BTN dir={this.state.textBox_align} onClick={this.sendHttp}> {this.state.submit} </BTN>
-                <BTN dir={this.state.textBox_align} onClick={this.getData} type="submit">{this.state.result}</BTN>
+                <BTN dir={this.state.textBox_align} onClick={this.sendHttp} type ="button"> {this.state.submit} </BTN>
+                <BTN dir={this.state.textBox_align} onClick={this.getData} type ="button">{this.state.result}</BTN>
                 
                 <div dir={this.state.textBox_align} > {print}   </div>
                 {/* <div> {language}</div> */}
