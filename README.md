@@ -14,6 +14,8 @@ the user to enter text in one of the languages and get an output of the text
 labeled into entities, and a table that shows for each word in the text what is 
 the entity, and the confidence score.</b>
 
+![Screenshot 2021-08-12 061050](https://user-images.githubusercontent.com/57187365/129132842-2123842c-3d73-4ce7-a0e4-4339d19ff6e0.jpg)
+![Screenshot 2021-08-12 061205](https://user-images.githubusercontent.com/57187365/129132884-7d8522a4-bdb2-4b81-8e3f-8ecf19ae20f0.jpg)
 
 
 
