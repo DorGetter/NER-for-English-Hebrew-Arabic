@@ -1,4 +1,4 @@
-# NER_Project in English , Hebrew , and Arabic
+# NER_Project in English , Hebrew and Arabic
 -----------------
 
 </b>
